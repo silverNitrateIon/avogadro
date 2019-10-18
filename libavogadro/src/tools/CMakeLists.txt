@@ -21,7 +21,7 @@ avogadro_plugin(drawtool
   "${drawtool_SRCS}"
   drawtool.qrc)
 
-option(ENABLE_ZMATRIX_TOOL "Enable the z-matrix tool (experimental)" OFF)
+option(ENABLE_ZMATRIX_TOOL "Enable the z-matrix tool (experimental)" ON)
 if(ENABLE_ZMATRIX_TOOL)
   ### zmatrixtool
   set(zmatrixtool_SRCS zmatrixtool.cpp zmatrixdialog.cpp zmatrixmodel.cpp)
